@@ -6,6 +6,9 @@
   "domain_name": "example.com",
   "email": "{{ cookiecutter.author_name.lower()|replace(' ', '-') }}@example.com",
   "version": "0.1.0",
+  "use_django_oauth_toolkit": "y",
+  "use_geojson":  "y",
+  "use_django_fcm": "y",
   "open_source_license": [
     "MIT",
     "BSD",
@@ -13,10 +16,10 @@
     "Apache Software License 2.0",
     "Not open source"
   ],
-  "timezone": "UTC",
+  "timezone": "Europe/Rome",
   "windows": "n",
-  "use_pycharm": "n",
-  "use_docker": "n",
+  "use_pycharm": "y",
+  "use_docker": "y",
   "postgresql_version": [
     "12.3",
     "11.8",
@@ -45,7 +48,7 @@
     "Other SMTP"
   ],
   "use_async": "n",
-  "use_drf": "n",
+  "use_drf": "y",
   "custom_bootstrap_compilation": "n",
   "use_compressor": "n",
   "use_celery": "n",
@@ -54,9 +57,9 @@
   "use_whitenoise": "n",
   "use_heroku": "n",
   "ci_tool": [
+    "Gitlab",
     "None",
     "Travis",
-    "Gitlab",
     "Github"
   ],
   "keep_local_envs_in_vcs": "y",
