@@ -82,6 +82,10 @@ THIRD_PARTY_APPS = [
     "rest_framework.authtoken",
     "corsheaders",
 {%- endif %}
+{%- if cookiecutter.use_django_oauth_toolkit == 'y' %}
+    "oauth2_provider",
+{%- endif %}
+
 ]
 
 LOCAL_APPS = [
