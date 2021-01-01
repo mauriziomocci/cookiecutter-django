@@ -8,6 +8,7 @@
   "version": "0.1.0",
   "use_django_oauth_toolkit": "y",
   "use_geojson":  "y",
+  "use_drf-yasg": "y",
   "use_django_fcm": "y",
   "open_source_license": [
     "MIT",
